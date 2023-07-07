@@ -4,7 +4,7 @@ import PiniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 // import the store modules from modules fold
 import { useoptionStore } from './modules/optionStore'
 import { usecompositionStore } from './modules/compositionStore'
-// other import modules ...
+// Add your other import modules ...
 
 const pinia = createPinia()
 
@@ -15,7 +15,7 @@ pinia.use(PiniaPluginPersistedstate)
 export {
   useoptionStore,
   usecompositionStore
-  // other store modules
+  // Add your other store modules here
 }
 
 export default pinia
