@@ -23,5 +23,21 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, 'src')
     }
+  },
+
+  // Your can change the env prefix here
+  envPrefix: 'VITE',
+
+  // Configure the proxy service
+  server: {
+    port: 8000,
+    proxy: {
+      '/api': {
+        // The target change to your own server address
+        target: 'http://jsonplaceholder.typicode.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      }
+    }
   }
 })
