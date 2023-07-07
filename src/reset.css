@@ -1,0 +1,87 @@
+/* Initialize the style */
+
+/* Clear the default margins */
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+footer,
+form,
+table,
+header,
+dl,
+dt,
+th,
+tr,
+td,
+tbody,
+thead,
+i,
+a,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Overflow options */
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Ununderline a */
+a {
+  text-decoration: none;
+}
+
+/* Cancel the dot in front of li */
+li {
+  list-style: none;
+}
+
+/* Make i not tilted */
+i {
+  font-style: normal;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Sets the scroll bar style */
+*::-webkit-scrollbar {
+  width: 10px;
+  /* // height: 10px;  */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 5px;
+}
+
+* {
+  scrollbar-width: 10px;
+  /* scrollbar-base-color: green;
+  scrollbar-track-color: red;
+  scrollbar-arrow-color: blue; */
+}
