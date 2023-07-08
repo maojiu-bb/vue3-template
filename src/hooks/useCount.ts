@@ -3,7 +3,7 @@
 // This is a example hook
 import { ref } from 'vue'
 
-export const useCounte = () => {
+export const useCount = () => {
   const count = ref<number>(0)
 
   const add = () => {

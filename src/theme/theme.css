@@ -2,5 +2,6 @@
 
 :root {
   /* Your CSS variables */
-  --text-color: #b0bbf7;
+  --bg-color: #b0bbf7;
+  --text-color: #fff;
 }
