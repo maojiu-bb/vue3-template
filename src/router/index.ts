@@ -8,4 +8,11 @@ const router = createRouter({
   history: createWebHistory()
 })
 
+router.beforeEach((to, _from, next) => {
+  if (to.meta.title) {
+    document.title = to.meta.title + ' | Vue3-Template' // Chnage this to your own site title
+  }
+  next()
+})
+
 export default router
