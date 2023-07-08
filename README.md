@@ -17,7 +17,7 @@ This is an out-of-the-box Vue+TS template configured with vue-router, pinia, axi
 
 ```bash
 # clone the project / 克隆项目
-git clone
+git clone git@github.com:maojiu-bb/vue3-template.git
 ```
 
 ```shell
