@@ -21,7 +21,7 @@ export const usecompositionStore = defineStore(
       increment
     }
   },
-  // pinia 持久化数据存储
+  // pinia persistent data storage
   {
     persist: true
   }

@@ -17,6 +17,6 @@ export const useoptionStore = defineStore('optionStore', {
       this.count++
     }
   },
-  // pinia 持久化数据存储
+  // pinia persistent data storage
   persist: true
 })
